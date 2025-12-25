@@ -21,11 +21,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark:bg-backgroundcolor">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}>
         <main className="ml-[300px] mt-4 flex-1">
-        <Sidebar />
-        {children}</main>
+          <Sidebar />
+          {children}</main>
       </body>
     </html>
   );
