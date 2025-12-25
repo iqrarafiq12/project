@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>Main Page</div>
+    <div className="ml-[300px] mt-4 flex-1" >Main Page</div>
   )
 }
 
