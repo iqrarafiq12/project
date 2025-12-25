@@ -1,7 +1,8 @@
-import { ThemeBtn } from "../Theme/ThemeBtn";
-import { ThemeProvider } from "../Theme/ThemeProvider";
-import AboutBtn from "./AboutBtn";
-import HomeBtn from "./HomeBtn";
+import { ThemeBtn } from "@/components/Theme/ThemeBtn";
+import { ThemeProvider } from "@/components/Theme/ThemeProvider";
+import BuildsBtn from "./BuildsBtn";
+import ExploreBtn from "./ExploreBtn";
+import ProjectsBtn from "./ProjectsBtn";
 
 export default function Sidebar() {
   return (
@@ -19,8 +20,9 @@ export default function Sidebar() {
         <div className="mt-5">
           <div className="flex flex-col gap-1 w-full">
 
-            <HomeBtn />
-            <AboutBtn />
+            <ExploreBtn />
+            <BuildsBtn />
+            <ProjectsBtn />
           </div>
         </div>
 
