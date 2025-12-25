@@ -1,0 +1,41 @@
+"use client"
+
+import * as React from "react"
+import { Eye, EyeClosed } from "lucide-react"
+import { useTheme } from "next-themes"
+
+
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "../ui/dropdown-menu"
+import { Button } from "../ui/button"
+
+export function ThemeBtn() {
+  const { setTheme } = useTheme()
+
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="ghost" size="icon">
+          <Eye className="h-[2.1rem] w-[2.1rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
+          <EyeClosed className="absolute h-[2.1rem] w-[2.1rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+          <span className="sr-only">Toggle theme</span>
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end">
+        <DropdownMenuItem onClick={() => setTheme("light")}>
+          Light
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("dark")}>
+          Dark
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("system")}>
+          System
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  )
+}
