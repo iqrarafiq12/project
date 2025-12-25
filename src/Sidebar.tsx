@@ -1,8 +1,11 @@
 import { ThemeBtn } from "@/components/Theme/ThemeBtn";
 import { ThemeProvider } from "@/components/Theme/ThemeProvider";
-import BuildsBtn from "./BuildsBtn";
-import ExploreBtn from "./ExploreBtn";
-import ProjectsBtn from "./ProjectsBtn";
+import BuildsBtn from "./Navbar/BuildsBtn";
+import ExploreBtn from "./Navbar/ExploreBtn";
+import ProjectsBtn from "./Navbar/ProjectsBtn";
+import StartupsPage from "./Navbar/StartupsBtn";
+import StoryBtn from "./Navbar/StoryBtn";
+
 
 export default function Sidebar() {
   return (
@@ -23,6 +26,16 @@ export default function Sidebar() {
             <ExploreBtn />
             <BuildsBtn />
             <ProjectsBtn />
+            <StartupsPage />
+            <StoryBtn />
+          </div>
+        </div>
+
+        <div className="mt-5">
+          <div className="flex flex-col gap-1 w-full bg-primary hover-none rounded-sm cursor-pointer">
+            {/* Additional buttons can be added here */}
+            <span>stats</span>
+
           </div>
         </div>
 

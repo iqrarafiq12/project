@@ -1,27 +1,23 @@
-import Link from "next/link";
-import { House, LucideIcon } from "lucide-react";
+import Link from "next/link"
+
+import { LucideIcon, MonitorSmartphone } from "lucide-react";
 import { Button, ButtonProps } from "../../components/ui/button";
 
-interface SideBtnProps extends ButtonProps {
+
+interface SideBtnprops extends ButtonProps {
   icon?: LucideIcon;
 }
 
-export default function ProjectsBtn({
-  icon: Icon,
-  ...props
-}: SideBtnProps) {
+export default function StartupsBtn({ icon: Icon, ...props }: SideBtnprops) {
   return (
-    <Button
-      asChild
-      variant="ghost"
-      className="gap-2 justify-start w-full cursor-pointer"
-      {...props}
-    >
-      <Link href="/startups">
-        {Icon && <Icon className="w-4 h-4" />}
-        <House className="w-4 h-4" />
+
+    <Link href="/startups"  >
+      <Button variant="ghost" className="gap-2 justify-start w-full cursor-pointer" {...props}>
+        {Icon && <Icon />}
+        <MonitorSmartphone />
         <span>Startups</span>
-      </Link>
-    </Button>
+      </Button>
+    </Link>
+    
   );
 }

@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { LucideIcon, MoonIcon } from "lucide-react";
+import { LucideIcon, Presentation } from "lucide-react";
 import { Button, ButtonProps } from "../../components/ui/button";
 
 
@@ -14,7 +14,7 @@ export default function AboutBtn({ icon: Icon, ...props }: SideBtnprops) {
     <Link href="/builds"  >
       <Button variant="ghost" className="gap-2 justify-start w-full cursor-pointer" {...props}>
         {Icon && <Icon />}
-        <MoonIcon />
+        <Presentation />
         <span>Builds</span>
       </Button>
     </Link>

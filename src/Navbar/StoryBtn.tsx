@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { Blocks, LucideIcon } from "lucide-react";
+import { LucideIcon, MonitorSmartphone } from "lucide-react";
 import { Button, ButtonProps } from "../../components/ui/button";
 
 
@@ -8,14 +8,14 @@ interface SideBtnprops extends ButtonProps {
   icon?: LucideIcon;
 }
 
-export default function ProjectsBtn({ icon: Icon, ...props }: SideBtnprops) {
+export default function StoryBtn({ icon: Icon, ...props }: SideBtnprops) {
   return (
 
-    <Link href="/projects"  >
+    <Link href="/story"  >
       <Button variant="ghost" className="gap-2 justify-start w-full cursor-pointer" {...props}>
         {Icon && <Icon />}
-        <Blocks />
-        <span>Projects</span>
+        <MonitorSmartphone />
+        <span>Story</span>
       </Button>
     </Link>
     
