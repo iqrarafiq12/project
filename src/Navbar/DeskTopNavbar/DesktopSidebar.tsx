@@ -3,7 +3,7 @@ import SidebarContent from "./SidebarContent";
 
 export default function DesktopSidebar() {
   return (
-    <aside className="hidden md:block fixed left-0 top-0 h-screen w-[270px] border-r p-4">
+    <aside className="hidden md:block fixed left-0 top-0 h-screen w-[270px] border-r p-4 ">
       <div className="h-full px-3 py-4">
 
         {/* Header */}

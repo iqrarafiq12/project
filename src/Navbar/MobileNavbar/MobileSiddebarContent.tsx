@@ -1,6 +1,11 @@
 // components/Sidebar/DesktopSidebar.tsx
 
-import SidebarContent from "../DeskTopNavbar/SidebarContent";
+import BuildsBtn from "../BuildsBtn";
+import ExploreBtn from "../ExploreBtn";
+import ProjectsBtn from "../ProjectsBtn";
+import StartupsBtn from "../StartupsBtn";
+import StoryBtn from "../StoryBtn";
+
 
 export default function MobileSiddebarContent() {
   return (
@@ -16,7 +21,13 @@ export default function MobileSiddebarContent() {
 
         {/* Navigation */}
         <div className="mt-6">
-         <SidebarContent />
+           <div className="flex flex-col gap-1 w-full ">
+               <ExploreBtn />
+               <BuildsBtn />
+               <ProjectsBtn />
+               <StartupsBtn />
+               <StoryBtn />
+             </div>
         </div>
 
       </div>

@@ -8,7 +8,7 @@ import StoryBtn from "../StoryBtn";
 
 export default function SidebarContent() {
   return (
-    <div className="flex flex-col gap-1 w-full">
+    <div className="flex flex-col gap-1 w-full ">
       <ExploreBtn />
       <BuildsBtn />
       <ProjectsBtn />
