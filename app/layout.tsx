@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="antialiased bg-backgroundcolor text-foreground">
+    <html lang="en" className="bg-background text-foreground">
+      <body className="antialiased">
 
         {/* GLOBAL NAV (OUTSIDE MAIN) */}
         <DesktopSidebar />
