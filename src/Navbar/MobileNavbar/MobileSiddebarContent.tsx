@@ -3,6 +3,7 @@
 import BuildsBtn from "../BuildsBtn";
 import ExploreBtn from "../ExploreBtn";
 import ProjectsBtn from "../ProjectsBtn";
+import SidebarSocial from "../Socials/SidebarSocial";
 import StartupsBtn from "../StartupsBtn";
 import StoryBtn from "../StoryBtn";
 
@@ -29,7 +30,9 @@ export default function MobileSiddebarContent() {
                <StoryBtn />
              </div>
         </div>
-
+ <div className="p-4">
+          <SidebarSocial />
+        </div>
       </div>
     </aside>
   );

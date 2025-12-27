@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import DesktopSidebar from "../src/Navbar/DeskTopNavbar/DesktopSidebar";
 import MobileSidebar from "@/src/Navbar/MobileNavbar/MobileSidebar";
-
+import { inter, dmSans, aneklatin } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-background text-foreground">
-      <body className="antialiased">
+    <html lang="en" className="bg-background text-foreground font-inter">
+      <body className={`${inter.variable} ${dmSans.variable} ${aneklatin.variable}`}>
 
         {/* GLOBAL NAV (OUTSIDE MAIN) */}
         <DesktopSidebar />

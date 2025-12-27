@@ -5,6 +5,8 @@ import { ListFilterPlus, Menu } from "lucide-react";
 import MobileSiddebarContent from "./MobileSiddebarContent";
 import { Button } from "@/components/ui/button";
 
+
+
 export default function MobileSidebar() {
   const [open, setOpen] = useState(false);
 
@@ -39,6 +41,7 @@ export default function MobileSidebar() {
         <div className="p-4">
           <MobileSiddebarContent />
         </div>
+
       </aside>
     </>
   );
