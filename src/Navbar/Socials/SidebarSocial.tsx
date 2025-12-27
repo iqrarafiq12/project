@@ -9,7 +9,6 @@ import {
     // FaGithub,
     FaInstagram,
     FaLinkedin,
-    FaBuilding,
 } from "react-icons/fa";
 
 export default function SidebarSocial() {
