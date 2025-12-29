@@ -1,9 +1,10 @@
 import BuildsBtn from "../BuildsBtn";
-import ExploreBtn from "../ExploreBtn";
-import ProjectsBtn from "../ProjectsBtn";
+import ContactBtn from "../ContactBtn";
+import LearnBtn from "../LearnBtn";
 import SidebarSocial from "../Socials/SidebarSocial";
 import StartupsBtn from "../StartupsBtn";
 import StoryBtn from "../StoryBtn";
+import WorkBtn from "../WorkBtn";
 
 export default function MobileSiddebarContent() {
   return (
@@ -26,7 +27,7 @@ export default function MobileSiddebarContent() {
             <h3 className="text-sm font-semibold">
               Iqra Rafiq Khan
             </h3>
-            <p className="text-xs text-foreground/50">
+            <p className="text-xs text-pink-300">
               Founder & Creative Strategist
             </p>
           </div>
@@ -35,11 +36,12 @@ export default function MobileSiddebarContent() {
         {/* Navigation */}
         <div className="mt-6 flex-1">
           <div className="flex flex-col gap-1 w-full">
-            <ExploreBtn />
-            <BuildsBtn />
-            <ProjectsBtn />
+            <WorkBtn />
             <StartupsBtn />
+            <BuildsBtn />
+            <LearnBtn />
             <StoryBtn />
+            <ContactBtn />
           </div>
         </div>
 

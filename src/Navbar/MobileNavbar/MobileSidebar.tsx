@@ -27,7 +27,7 @@ export default function MobileSidebar() {
       {/* Overlay (Click anywhere to close) */}
       <div
         onClick={() => setOpen(false)}
-        className={`fixed inset-0 bg-black/60 z-40
+        className={`fixed inset-0 bg-black/60 z-40 left-5
           transition-opacity duration-300
           ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none "}`}
       />

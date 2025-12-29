@@ -1,8 +1,9 @@
 import React from 'react'
+import ExplorePage from './work/page'
 
 function page() {
   return (
-    <div className="ml-[300px] mt-4 flex-1" >Main Page</div>
+    <div><ExplorePage /> </div>
   )
 }
 

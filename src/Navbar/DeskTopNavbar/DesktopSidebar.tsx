@@ -8,7 +8,7 @@ export default function DesktopSidebar() {
       <div className="h-full px-3 py-4 flex flex-col">
 
         {/* Header */}
-        <div className="flex items-center gap-3 px-2 py-3 border-b border-foreground/20">
+        <div className="flex items-center gap-3 px-1 py-3 border-b border-foreground/20">
           {/* Logo / Avatar */}
           <div className="flex h-10 w-10 items-center justify-center">
             <img

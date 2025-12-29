@@ -2,7 +2,7 @@
 
 function ExplorePage() {
   return (
-    <div>Explore Page</div>
+    <div>Work Page</div>
   )
 }
 
