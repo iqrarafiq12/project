@@ -10,6 +10,7 @@ import {
     FaInstagram,
     FaLinkedin,
 } from "react-icons/fa";
+import FeatureBtn from "./FeatureBtn";
 
 export default function SidebarSocial() {
     return (
@@ -17,16 +18,16 @@ export default function SidebarSocial() {
             {/* Section 1 */}
             <div className="flex flex-col md:block mt-2 pt-3 border-t border-primary/30 cursor-pointer">
                 <p className="mb-2 text-xs font-semibold uppercase text-foreground/50">
-                    Founder
+                    Feature
                 </p>
-                <SideBtn
-                    href="https://www.linkedin.com/company/thewinkievere/"
-                    label="The Winkieverse"
+                <FeatureBtn
+                    href=""
+                    label="Soon"
                 />
 
-                <SideBtn
-                    href="https://www.linkedin.com/company/edaqaicreatives/"
-                    label="Edaqai Creatives"
+                <FeatureBtn
+                    href=""
+                    label="Soon"
                 /></div>
 
             <div className="flex flex-col md:block mt-2 pt-3 border-t border-primary/30 cursor-pointer">

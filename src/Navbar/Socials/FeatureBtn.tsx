@@ -8,12 +8,12 @@ interface SideBtnProps extends ButtonProps {
   label: string;
 }
 
-export default function SideBtn({ icon: Icon, href, label, ...props }: SideBtnProps) {
+export default function FeatureBtn({ icon: Icon, href, label, ...props }: SideBtnProps) {
   return (
     <Link href={href}>
       <Button
         variant="ghost"
-        className="w-full justify-start gap-2 transition-colors hover:bg-primary focus:bg-primary cursor-pointer"
+        className="w-full justify-start gap-2 transition-colors hover:bg-transparent focus:bg-transparent cursor-pointer"
         {...props}
       >
         {Icon && <Icon size={18} />} {/* size consistent */}
