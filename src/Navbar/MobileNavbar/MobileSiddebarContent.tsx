@@ -26,7 +26,7 @@ export default function MobileSiddebarContent() {
             <h3 className="text-sm font-semibold">
               Iqra Rafiq Khan
             </h3>
-            <p className="text-xs text-pink-300">
+            <p className="text-xs text-foreground/50">
               Founder & Creative Strategist
             </p>
           </div>

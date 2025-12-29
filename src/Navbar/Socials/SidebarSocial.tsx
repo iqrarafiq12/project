@@ -16,7 +16,7 @@ export default function SidebarSocial() {
         <div className="flex flex-col md:block">
             {/* Section 1 */}
             <div className="flex flex-col md:block mt-2 pt-3 border-t border-primary/30 cursor-pointer">
-                <p className="mb-2 text-xs font-semibold uppercase text-pink-400">
+                <p className="mb-2 text-xs font-semibold uppercase text-foreground/50">
                     Founder
                 </p>
                 <SideBtn
@@ -30,7 +30,7 @@ export default function SidebarSocial() {
                 /></div>
 
             <div className="flex flex-col md:block mt-2 pt-3 border-t border-primary/30 cursor-pointer">
-                <p className="mb-2 text-xs font-semibold uppercase text-pink-400">
+                <p className="mb-2 text-xs font-semibold uppercase text-foreground/50">
                     Social
                 </p>
 
