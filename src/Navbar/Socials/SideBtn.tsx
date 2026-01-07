@@ -13,7 +13,7 @@ export default function SideBtn({ icon: Icon, href, label, ...props }: SideBtnPr
     <Link href={href}>
       <Button
         variant="ghost"
-        className="w-full justify-start gap-2 transition-colors hover:bg-primary focus:bg-primary cursor-pointer"
+        className="w-full justify-start gap-2 transition-colors hover:bg-secondary focus:bg-secondary cursor-pointer"
         {...props}
       >
         {Icon && <Icon size={18} />} {/* size consistent */}

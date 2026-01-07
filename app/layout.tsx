@@ -21,7 +21,7 @@ export default function RootLayout({
         {/* GLOBAL NAV (OUTSIDE MAIN) */}
         <DesktopSidebar />
         <MobileSidebar />
-        <main className="min-h-screen md:ml-[270px]">
+        <main>
           {children}
         </main>
 

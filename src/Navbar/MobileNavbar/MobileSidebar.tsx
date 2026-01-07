@@ -16,7 +16,7 @@ export default function MobileSidebar() {
       {!open && (
  <Button
   onClick={() => setOpen(true)}
-  className="md:hidden fixed top-4 right-4 h-10 w-10 z-50 p-0 border-0 focus:ring-success-medium shadow-xs font-medium leading-5 rounded-base text-white bg-primary box-border border border-transparent hover:bg-success-strong focus:ring-4 focus:outline-none"
+  className="md:hidden fixed top-4 right-4 h-10 w-10 z-50 p-0 border-0 focus:ring-success-medium shadow-xs font-medium leading-5 rounded-base text-dark bg-secondary box-border border border-transparent hover:bg-success-strong focus:ring-4 focus:outline-none"
 >
   <ListFilterPlus className="w-[100px] h-[100px]"
   />
@@ -34,7 +34,7 @@ export default function MobileSidebar() {
 
       {/* Sliding Navigation Drawer */}
       <aside
-        className={`fixed top-0 left-0 h-screen w-[260px] bg-white z-50 
+        className={`fixed top-0 left-0 h-screen w-[260px] bg-peach z-50 
           transition-transform duration-300
           ${open ? "translate-x-0" : "-translate-x-full"}`}
       >
