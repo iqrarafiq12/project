@@ -51,18 +51,18 @@
   --radius: 0.625rem;
 
   /* 🎨 Brand Colors */
-  --pink: #FDACAC;      /* MAIN BACKGROUND */
+  --pink: #F3CFC6;      /* MAIN BACKGROUND */
   --green: #B8DB80;     /* PRIMARY CTA */
   --teal: #6BB2AE;      /* ACCENT / LINKS */
   --cream: #EDECDA;     /* CARDS / SECTIONS */
   --peach: #FDD3A4;     /* SECONDARY */
-  --dark: #464646;      /* TEXT */
+  --dark: #373737;      /* TEXT */
 
   /* 🌈 UI Theme Mapping */
   --background: var(--pink);
   --foreground: var(--dark);
 
-  --primary: var(--green);
+  --primary: var(--cream);
   --primary-foreground: var(--dark);
 
   --secondary: var(--peach);

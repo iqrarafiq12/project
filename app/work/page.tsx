@@ -1,9 +1,12 @@
 
 
-function ExplorePage() {
+
+function WorkPage() {
   return (
-    <div>Work Page</div>
+    <div>
+      work page
+</div>
   )
 }
 
-export default ExplorePage
+export default WorkPage
