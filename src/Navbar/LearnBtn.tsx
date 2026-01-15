@@ -13,7 +13,7 @@ export default function LearnBtn({ icon: Icon, ...props }: SideBtnprops) {
 
     <Link href="/learn"  >
       <Button variant="ghost" className="gap-2 justify-start w-full cursor-pointer 
-               hover:bg-secondary active:bg-secondary focus:bg-secondary transition-colors duration-200" {...props}>
+               hover:bg-primary active:bg-primary focus:bg-primary transition-colors duration-200" {...props}>
         {Icon && <Icon />}
         <Blocks />
         <span>Learn</span>

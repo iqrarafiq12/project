@@ -13,7 +13,7 @@ export default function BuildsBtn({ icon: Icon, ...props }: SideBtnprops) {
 
     <Link href="/builds"  >
       <Button variant="ghost" className="gap-2 justify-start w-full cursor-pointer 
-               hover:bg-secondary active:bg-secondary focus:bg-primary transition-colors duration-200" {...props}>
+               hover:bg-primary active:bg-primary focus:bg-primary transition-colors duration-200" {...props}>
         {Icon && <Icon />}
         <Presentation />
         <span>Builds</span>

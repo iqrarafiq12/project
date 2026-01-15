@@ -4,15 +4,15 @@
 function WorkPage() {
   return (
 
-    <div className=" w-full px-4 sm:px-6 lg:px-8 md:ml-[300px] max-w-5xl mt-[80px]">
-      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight">Payments tool for companies</h2>
+    <div className=" w-full px-4 sm:px-6 lg:px-8 md:ml-[300px] max-w-5xl mt-[60px]">
+      <h1 className="mb-4 text-2xl font-bold tracking-tight text-heading md:text-5xl lg:text-6xl">Work Built With Purpose, Not <span className="underline underline-offset-3 text-ring">Just Aesthetics</span></h1>
 
       <p className="mt-4 text-base sm:text-lg text-body leading-relaxed">
-        Start developing with an open-source library of over 450+ UI components, sections, and pages built with the utility classes from Tailwind CSS and designed in Figma.
+        A collection of online and offline projects, case studies, and collaborations that show how I think, build, and deliver across design, branding, and digital products. This work reflects how I approach problems, collaborate with people, and turn ideas into usable outcomes.
       </p>
 
       <p className="mt-3 text-base sm:text-lg font-normal text-body leading-relaxed">
-        Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.
+        A collection of online and offline projects, case studies, and collaborations that show how I think, build, and deliver across design, branding, and digital products. This work reflects how I approach problems, collaborate with people, and turn ideas into usable outcomes.
       </p>
     </div>
 

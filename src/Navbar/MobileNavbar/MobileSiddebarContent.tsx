@@ -8,7 +8,7 @@ import WorkBtn from "../WorkBtn";
 
 export default function MobileSiddebarContent() {
   return (
-    <aside className="fixed left-0 top-0 h-screen w-[270px] bg-background text-foreground">
+    <aside className="fixed left-0 top-0 h-screen w-[270px] bg-backgroundtext-foreground">
       <div className="h-full px-3 py-4 flex flex-col">
 
         {/* Header */}
